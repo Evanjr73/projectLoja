@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  margin: 10px;
+  
+  
+}
+
+#separa{
+  margin-top: 0px;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+main{
+  display: block;
+ 
+  text-align: end;
+  height: 2.1rem;
+  width: 100%;
+  background-color: rgb(104, 104, 238);
+  
+  border: solid 0px;
+}
+#imgg{
+  height: 38rem;
+  width: 100%;
+  margin: auto;
+  background-image:url(D:\DEV\PROJETOS\pprojetoloja\lojavirtual\src\imagens\431411.jpg);
+  background-size: 100%;
+  font-size: 16px;
+}
+#containerlogo{
+  height: 250px;
+  width: 250px;
+  margin: 0 auto 0 auto;
+  /* background-color: black; */
+  
+}
+#logo{
+  height: 100%;
+  width: 100%;
+  border-radius: 900px;
+
+}
+details{
+  cursor: pointer;
+  color: rgb(209, 250, 0);
+  border: solid rgb(253, 241, 7);
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+.contatos{
+  height: 30px;
+  width: 30px;
+}
+
+#gmail{
+  margin-right: 50px;
+}
+#containertextimg{
+
+    /* height: 55%;
+    width: 35%;
+    background-color: white;
+    margin-left: 15rem; */
+    height: 450px;
+    width: 350px;
+    display: inline-flex;
+    border: solid 0px;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* align-items: flex-start; */
+    gap: 11px;
+    text-align: center;
+    
+    margin-left: 10%;
+    margin-top:4%;
+}
+
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 166, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 2);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(0, 149, 255);  /* creates padding around scroll thumb */
+}
+
+#grid{
+  display: grid;
+  
+  justify-items: center;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr)
+
+}
+.card{
+  height: 450px;
+  width: 350px;
+  background-color: blue;
+  border: solid;
+  border-radius: 10px;
+}
+.card:hover{
+  height: 455px;
+  width: 355px;
+  background-color: blue;
+  border: solid;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  margin-top: 60px;
+}
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
